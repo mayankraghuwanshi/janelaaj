@@ -27,7 +27,7 @@ class App extends Component {
              docemailormobile : "sambit95@gmail.com",
              role : "DOC"
          }
-         axios.post('http://35.200.243.43:3000/verifyalldoctorinformation' ,data ).then(res=>this.setState({data:res})).catch((err)=>this.setState(({error:err.message})))
+         //axios.post('http://35.200.243.43:3000/verifyalldoctorinformation' ,data ).then(res=>this.setState({data:res})).catch((err)=>this.setState(({error:err.message})))
      }
 
   render() {
