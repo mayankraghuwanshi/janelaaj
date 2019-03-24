@@ -1,0 +1,28 @@
+.row{
+  width: 100%;
+}
+
+
+.mainForm .row{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.mainForm{
+  margin: auto;
+  width:auto;
+  display: block;
+  padding: 10px;
+}
+.mainForm .col-sm-8,col-md-4{
+  margin: 10px 0 10px 0;
+}
+.mainForm .col-sm-4{
+  text-align: center;
+}
+
+@media (max-width : 600px ){
+  .mainForm{
+    width: 500px;
+  }
+}
